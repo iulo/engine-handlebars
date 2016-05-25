@@ -35,6 +35,17 @@ var engine = require('engine-handlebars');
 
 ## API
 
+
+### [.Handlebars](index.js#L36)
+
+Expose `Handlebars`, to give users access to the same instance
+
+**Example**
+
+```js
+var handlebars = require('engine-handlebars').Handlebars;
+```
+
 ### [.compile](index.js#L51)
 
 Handlebars string support. Compile the given `str` and register helpers and partials from settings
